@@ -16,6 +16,7 @@ function Features() {
           <div className='flex-1 flex flex-col justify-end'>
             <h2 className='title'>{title}</h2>
             <p className='subtitle'> {subtitle} </p>
+            
             <div >
               {items.map((item, index) => {
                 const {title, subtitle, icon:Icon} = item;
