@@ -1,6 +1,7 @@
 import React from 'react';
 import {newInStore} from '../data'
 import {Swiper, SwiperSlide} from 'swiper/react'
+
 import 'swiper/css';
 import 'swiper/css/pagination';
 
